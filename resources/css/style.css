@@ -1,3 +1,7 @@
+/*-----------------------------------------------------
+             BASIC SETUP 
+-----------------------------------------------------*/
+
 * {
     margin: 0;
     padding: 0;
@@ -13,19 +17,17 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/*-----------------------------------------------------
+             RESUABLE COMPONENTS
+-----------------------------------------------------*/
+
 .row {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-header {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("./img/hero.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
-
-header h1 {
+/*------ HEADINGS ------*/
+h1 {
     margin: 0 0 20px 0;;
     color: #ffffff;
     font-size: 240%;
@@ -35,14 +37,7 @@ header h1 {
     word-spacing: 4px;
 }
 
-.hero-text-box {
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
+/*------ BUTTONS ------*/
 .btn:link,
 .btn:visited {
     display: inline-block;
@@ -52,7 +47,6 @@ header h1 {
     border-radius: 200px;
     transition: background-color 0.3s, border 0.3s, color 0.3s;
 }
-
 
 .btn-full:link,
 .btn-full:visited {
@@ -82,4 +76,24 @@ header h1 {
 .btn-ghost:active {
     border: 1px solid  #cf6d17;
     color: #ffffff;
+}
+
+
+/*-----------------------------------------------------
+             HEADER
+-----------------------------------------------------*/
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("./img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
