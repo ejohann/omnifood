@@ -1,0 +1,21 @@
+/* Large tablets to 1200px: widths smaller 1140px */
+@media only screen and (max-width: 1200px) {
+
+}
+
+
+/* Samll tablets to large tablets: from 768 to 1023px */
+@media only screen and (max-width: 1023px) {
+
+}
+
+/* Large phones to small tablets: from 481 to 767px */
+@media only screen and (max-width: 767px) {
+
+}
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+}
