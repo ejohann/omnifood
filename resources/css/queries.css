@@ -16,6 +16,10 @@
     body {
         font-size: 18px;
     }
+
+    section {
+        padding: 60px 0;
+    }
 }
 
 /* Large phones to small tablets: from 481 to 767px */
