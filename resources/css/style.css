@@ -205,12 +205,18 @@ header {
             transform: translate(-50%, -50%);
 }
 
-.logo {
+.logo,
+.logo-black {
     height: 100px;
     width: auto;
     float: left;
     margin-top: 20px;
 }
+
+.logo-black {
+    display: none;
+}
+
 /* Main navigation */
 .main-nav {
     float: right;
