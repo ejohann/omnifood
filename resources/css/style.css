@@ -205,8 +205,7 @@ header {
             transform: translate(-50%, -50%);
 }
 
-.logo,
-.logo-black {
+.logo {
     height: 100px;
     width: auto;
     float: left;
@@ -215,6 +214,10 @@ header {
 
 .logo-black {
     display: none;
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 5px 0;
 }
 
 /* Main navigation */
@@ -255,6 +258,11 @@ header {
     background-color: rgba(255, 255, 255, 0.98);
 }
 
+.sticky .main-nav {
+    margin-top: 15px;
+}
+
+
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     padding: 8px 0;
@@ -268,6 +276,9 @@ header {
 .sticky .logo {
     display: none;
 }
+
+
+
 
 /*-----------------------------------------------------
              FEATURES
