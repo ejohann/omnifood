@@ -261,7 +261,13 @@ header {
     color: #555;
 }
  
+.sticky .logo-black {
+    display: block;
+}
 
+.sticky .logo {
+    display: none;
+}
 
 /*-----------------------------------------------------
              FEATURES
