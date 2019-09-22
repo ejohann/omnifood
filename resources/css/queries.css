@@ -65,6 +65,10 @@
         display: inline-block;
      }
     
+     .main-nav {
+         display: none;
+     }
+
     .main-nav { 
          float: left; 
          margin-top: 35px;
